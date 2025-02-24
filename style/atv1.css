@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgba(45,56,253,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header, #funcao {
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+}
+
+#funcao button{
+    width: 30vw;
+    height: 10vh;
+    border-radius: 20px;
+    transition: 0.3s ease, transform 0.3 ease ;
+    background: linear-gradient(180deg, rgb(26, 238, 242) 0%, rgb(9, 20, 243) 100%);
+}
+
+#funcao, button:hover{
+
+    cursor: pointer;
+    transform:scale(1.1)
+}
+p , h1{
+    margin-top:1vh;
+    margin-bottom: 5vh;
+}
+#voltar {
+    background: linear-gradient(180deg, rgb(26, 238, 242) 0%, rgb(9, 20, 243) 100%);
+    height: 5vh;
+    width: 5vw;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+
+}
+#voltar a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+#voltar button:hover{
+    cursor:pointer;
+}
+input{
+    display: flex;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    height:5vh;
+    width: 30vw;
+
+}
+#verif {
+    background: linear-gradient(180deg, rgb(26, 238, 242) 0%, rgb(9, 20, 243) 100%);
+    height: 5vh;
+    width: 10vw;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+#verif button:hover{
+    cursor:pointer;
+}
+
