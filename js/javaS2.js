@@ -31,9 +31,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function verificarPalindromo() {
         const entrada = document.getElementById("entrada");
-        const resultadoPalindromo = document.getElementById("resultado-palindromo"); // Elemento para exibir o resultado
+        const resultadoPalindromo = document.getElementById("resultado-palindromo");
         if (entrada && resultadoPalindromo) {
-            const textoOriginal = entrada.value.toLowerCase().replace(/\s+/g, ''); // Remove espaços em branco
+            const textoOriginal = entrada.value.toLowerCase().replace(/\s+/g, '');
             const textoInvertido = textoOriginal.split("").reverse().join("");
             if (textoOriginal === textoInvertido) {
                 resultadoPalindromo.textContent = "É um palíndromo!";
