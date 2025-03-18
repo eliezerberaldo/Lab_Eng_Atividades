@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/javaS4.js"></script>
+    <link rel="shortcut icon" href="../style/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../style/styleS4.css">
+    <title>Atividade Classes</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário de Cadastro</h1>
+    </header>
+    <form method="get">
+    <section id="formatacao">
+        <section class="input">
+            <label for="Nome">Nome: </label>
+            <Input type="text" placeholder="Digite seu Nome Completo"></Input>
+        </section>
+      
+        <section class="input">
+            <label for="Email">E-Mail:</label>
+            <Input type="text" placeholder="fulano@teste.com"></Input>
+        </section>
+    </section>
+    <section id="formatacao">
+        <section class="input">
+            <label for="data_Nasc">Data Nascimento:</label>
+            <Input type="date"></Input>
+        </section>
+
+        <section class="input">
+            <label for="Telefone_Fix">Telefone Fixo:</label>
+            <Input type="number" placeholder="(99)99999-9999"></Input>
+        </section>
+
+        <section class="input">
+            <label for="Telefone_Cel">Celular:</label>
+            <Input type="number" placeholder="(99)99999-9999"></Input>
+        </section>
+    </section> 
+    <section id="formatacao">
+
+        <section class="input">
+            <label for="professor">Professor:</label>
+            <input type="radio" name="opção" value="professor">
+        </section>
+        <section class="input">
+            <label for="aluno">Aluno:</label>
+            <input type="radio" name="opção" value="aluno">
+        </section>
+    </section>
+    
+    <section id="formatacao">
+        <input type="submit" value="Enviar">
+
+        <input type="submit" value="Redefinir">
+    </section>
+    </form>
+</body>
+</html>
