@@ -77,6 +77,7 @@ document.addEventListener("DOMContentLoaded", function () {
     backButton.style.cursor = "pointer";
     backButton.style.background = "#ff5733";
     backButton.style.color = "white";
+    backButton.style.borderRadius = "15px"
     backButton.style.background = "linear-gradient(180deg, rgba(34,193,195,1) 0%, rgba(45,56,253,1) 100%)";
 
     backButton.addEventListener("click", () => {
@@ -96,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
             if (previousInput && operator) {
                 calculateResult();
             }
-            previousInput = parseFloat(display.textContent); // Converte para número
+            previousInput = parseFloat(display.textContent);
             operator = value;
             display.textContent = "";
         } else if (value === "=") {

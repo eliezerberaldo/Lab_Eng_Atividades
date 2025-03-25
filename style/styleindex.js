@@ -23,3 +23,12 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    let audio = document.querySelector("audio");
+    document.body.addEventListener("click", function() {
+        audio.play();
+    }, { once: true });
+});
+
+
