@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
     backButton.className = "back-btn";
     
     backLink.appendChild(backButton);
-    const beep = new Audio('../style/beep.mp3');
+    const beep = new Audio('../style/bolha.mp3');
     
     function somBtn(){
         beep.play();

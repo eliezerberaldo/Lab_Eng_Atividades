@@ -36,7 +36,7 @@ input {
     margin-bottom: 5vh;
 }
 input:focus{
-    background: linear-gradient(180deg, rgba(0, 255, 213, 0.536) 0%, rgba(0, 0, 0, 0.428) 100%);
+    background: linear-gradient(180deg, rgba(5, 234, 5, 0.637) 0%, rgba(255, 225, 0, 0.428)  100%);
 
 }
 button[type="submit"] {
@@ -68,6 +68,5 @@ button[type="submit"]:hover{
 }
 
 #resultado{
-    border: solid rgb(5, 11, 118);
     color:rgb(0, 0, 0);
 }
